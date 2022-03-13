@@ -88,7 +88,10 @@ body{
     padding-top: 10px;
     font-size: 0.9rem;
 }
-@media (max-width:425px) {
+@media (max-width:768px) {
+    body{
+        align-items: flex-start;
+    }
     .wrapper{
         grid-template-columns: 1fr;
 
